@@ -1,11 +1,12 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/esm/Button";
+import apkLink from "../Constants";
 
 function Navbar() {
   function handleDownload() {
-    const element = document.createElement('a');
-    element.href = "/images/icon.png";
+    const element = document.createElement("a");
+    element.href = { apkLink };
     element.download = "GoProFantasy.apk";
     document.body.appendChild(element);
     element.click();
@@ -14,7 +15,12 @@ function Navbar() {
     <nav class="navbar">
       <div class="container-fluid">
         <div class="logo">
-          <img src="/images/app_logo.png" width="130px" height="90px"  alt="GoProFantasyLogo"/>
+          <img
+            src="/images/app_logo.png"
+            width="130px"
+            height="90px"
+            alt="GoProFantasyLogo"
+          />
         </div>
         <div class="brand">GoProFantasy</div>
         <ul class="list">
@@ -40,7 +46,8 @@ function Navbar() {
               </a>
             </div>
             <div class="download">
-              <Button onClick={handleDownload}> Download App</Button>
+            < a href = {apkLink}>
+              <Button> Download App</Button></a>
             </div>
           </li>
         </ul>

@@ -46,30 +46,29 @@
   background: #30027a;
 }
 
-.qrholder{
+.qrholder {
   position: absolute;
   width: 300px;
-  height: 100px;
+  height: 200px;
   left: 200px;
   top: 100px;
 }
 
 .scan-header {
-  
-position: absolute;
-width: 322px;
-height: 73px;
-left: 350px;
-top: 135px;
+  position: absolute;
+  width: 322px;
+  height: 73px;
+  left: 400px;
+  top: 135px;
 
-font-family: 'Inter';
-font-style: normal;
-font-weight: 800;
-font-size: 45px;
-line-height: 54px;
-text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
 .features {
@@ -77,55 +76,54 @@ color: #FFFFFF;
   width: 1440px;
   height: 890px;
   left: 0px;
-  top: 380px;
-  background:#3f1c91;
+  top: 470px;
+  background: #3f1c91;
 }
 
 .app-features-image {
-position: absolute;
-width: 410px;
-height: 800px;
-left: 112px;
-top: 90px;
-background: url(images/player1.png);
+  position: absolute;
+  width: 410px;
+  height: 800px;
+  left: 112px;
+  top: 90px;
+  background: url(images/player1.png);
 }
 
-.wrap-circle{
-position: absolute;
-width: 150px;
-height: 100px;
-left: 540px;
-top: 824px;
+.wrap-circle {
+  position: absolute;
+  width: 150px;
+  height: 100px;
+  left: 540px;
+  top: 824px;
 
-background: #DEDEDE;
-box-shadow: 7px 9px 10px rgba(0, 0, 0, 0.5);
+  background: #dedede;
+  box-shadow: 7px 9px 10px rgba(0, 0, 0, 0.5);
 }
 
 .rupee-symbol {
-position: absolute;
-width: 70px;
-height: 50px;
-left: 540px;
-top: 200px;
-
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  left: 540px;
+  top: 200px;
 }
 
 .low-entry-fee-text {
   position: absolute;
-width: 263px;
-height: 31px;
-left: 633px;
-top: 205px;
+  width: 263px;
+  height: 31px;
+  left: 633px;
+  top: 205px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 31px;
-display: flex;
-align-items: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
 
-color: #000000;
+  color: #000000;
 }
 
 .rupee-unwrap {
@@ -134,24 +132,23 @@ color: #000000;
   height: 50px;
   left: 949px;
   top: 200px;
-  
-  }
+}
 .badge-reward {
   position: absolute;
-width: 316px;
-height: 62px;
-left: 1037px;
-top: 200px;
+  width: 316px;
+  height: 62px;
+  left: 1037px;
+  top: 200px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 31px;
-display: flex;
-align-items: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
 
-color: #000000;
+  color: #000000;
 }
 
 .expert-team-symbol {
@@ -160,24 +157,23 @@ color: #000000;
   height: 80px;
   left: 949px;
   top: 300px;
-  
-  }
+}
 .expert-team-text {
   position: absolute;
-width: 316px;
-height: 62px;
-left: 1037px;
-top: 310px;
+  width: 316px;
+  height: 62px;
+  left: 1037px;
+  top: 310px;
 
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 25px;
-line-height: 31px;
-display: flex;
-align-items: center;
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
 
-color: #000000;
+  color: #000000;
 }
 
 .cash-symbol {
@@ -186,131 +182,142 @@ color: #000000;
   height: 50px;
   left: 540px;
   top: 300px;
-  
-  }
-  
-  .cash-withdrawl-text {
-    position: absolute;
+}
+
+.cash-withdrawl-text {
+  position: absolute;
   width: 263px;
   height: 31px;
   left: 633px;
   top: 320px;
-  
-  font-family: 'Mulish';
+
+  font-family: "Mulish";
   font-style: normal;
   font-weight: 700;
   font-size: 25px;
   line-height: 31px;
   display: flex;
   align-items: center;
-  
+
   color: #000000;
-  }
-  .expert-reward-symbol {
-    position: absolute;
-    width: 70px;
-    height: 50px;
-    left: 540px;
-    top: 400px;
-    
-    }
-    
-    .expert-reward-text {
-      position: absolute;
-    width: 263px;
-    height: 31px;
-    left: 633px;
-    top: 420px;
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    
-    color: #000000;
-    }
+}
+.expert-reward-symbol {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  left: 540px;
+  top: 400px;
+}
 
-    .chat-symbol {
-      position: absolute;
-      width: 70px;
-      height: 80px;
-      left: 949px;
-      top: 400px;
-      
-      }
-    .chat-feture-text {
-      position: absolute;
-    width: 316px;
-    height: 62px;
-    left: 1037px;
-    top: 430px;
-    
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 25px;
-    line-height: 31px;
-    display: flex;
-    align-items: center;
-    
-    color: #000000;
-    }
-    .get-expert-team-symbol {
-      position: absolute;
-      width: 70px;
-      height: 50px;
-      left: 540px;
-      top: 510px;
-      
-      }
-      
-      .get-expert-team-text {
-        position: absolute;
-      width: 263px;
-      height: 31px;
-      left: 633px;
-      top: 520px;
-      
-      font-family: 'Mulish';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 31px;
-      display: flex;
-      align-items: center;
-      
-      color: #000000;
-      }
+.expert-reward-text {
+  position: absolute;
+  width: 263px;
+  height: 31px;
+  left: 633px;
+  top: 420px;
 
-      .offer-symbol {
-        position: absolute;
-        width: 70px;
-        height: 80px;
-        left: 949px;
-        top: 501px;
-        
-        }
-      .offer-feature-text {
-        position: absolute;
-      width: 316px;
-      height: 62px;
-      left: 1037px;
-      top: 520px;
-      
-      font-family: 'Mulish';
-      font-style: normal;
-      font-weight: 700;
-      font-size: 25px;
-      line-height: 31px;
-      display: flex;
-      align-items: center;
-      
-      color: #000000;
-      }
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
 
+  color: #000000;
+}
+
+.chat-symbol {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  left: 949px;
+  top: 400px;
+}
+.chat-feture-text {
+  position: absolute;
+  width: 316px;
+  height: 62px;
+  left: 1037px;
+  top: 430px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.get-expert-team-symbol {
+  position: absolute;
+  width: 70px;
+  height: 50px;
+  left: 540px;
+  top: 510px;
+}
+
+.get-expert-team-text {
+  position: absolute;
+  width: 263px;
+  height: 31px;
+  left: 633px;
+  top: 520px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.offer-symbol {
+  position: absolute;
+  width: 70px;
+  height: 80px;
+  left: 949px;
+  top: 501px;
+}
+.offer-feature-text {
+  position: absolute;
+  width: 316px;
+  height: 62px;
+  left: 1037px;
+  top: 520px;
+
+  font-family: "Mulish";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+.how-to-play {
+  position: absolute;
+  width: 1440px;
+  height: 890px;
+  left: 0px;
+  top: 1270px;
+  background: #341f97;
+}
+.user-story-style {
+  position: absolute;
+  width: 1440px;
+  height: 130px;
+  left: 0px;
+  top: 1780px;
+  background: #4c31f5;
+}
 .setCarousel {
   position: absolute;
   width: 350px;
@@ -376,4 +383,89 @@ color: #000000;
 .btn-primary {
   background: linear-gradient(180deg, #08d104 0%, #03a458 100%) !important;
   border-radius: 7px !important;
+}
+
+.term > dt {
+  margin-bottom: 1rem;
+}
+
+dt {
+  color: #2ec2b0;
+  line-height: 1;
+}
+
+dt span {
+  font-size: 200%;
+  font-weight: 900;
+}
+
+.emoji {
+  margin: 0 auto 20px;
+  display: block;
+  font-size: 400%;
+}
+
+dd {
+  font-size: 92.5%;
+  margin-left: 0;
+}
+
+dd dt {
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-weight: 600;
+  font-size: inherit;
+}
+
+dd dl {
+  font-size: 90%;
+  margin: 1rem auto 0 auto;
+  letter-spacing: 0.33px;
+  max-width: 15rem;
+}
+
+dd dl .term {
+  margin-bottom: 1rem;
+}
+.dictionary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 3rem auto;
+  max-width: 90%;
+}
+
+.dictionary > .term {
+  text-align: center;
+  max-width: 20rem;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  border-radius: 3px;
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05), 0 5px 20px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  transition: all 100ms ease-in-out;
+}
+
+.user-heading {
+  font-weight: 900;
+  font-size: 500%;
+  text-align: center;
+  margin-top: 4rem;
+  color: #fff;
+  line-height: 1.2;
+}
+
+.user-heading > span {
+  padding: 5px 15px;
+  background: #2ec2b0;
+}
+
+footer{
+  color: silver;
+  position:absolute;
+  top: 2500px;
+  text-align: center;
+  margin-top: 100%;
+  bottom:0;
+  width:100%;
 }
