@@ -2,6 +2,9 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/esm/Button";
 import apkLink from "../Constants";
+import FAQComponent from "./FAQs";
+import { Link } from "react-router-dom";
+
 
 function Navbar() {
   function handleDownload() {
@@ -11,6 +14,7 @@ function Navbar() {
     document.body.appendChild(element);
     element.click();
   }
+ 
   return (
     <nav class="navbar">
       <div class="container-fluid">
@@ -26,17 +30,16 @@ function Navbar() {
         <ul class="list">
           <li>
             <div class="play">
-              <a class="nav-link active" aria-current="page" href="#">
+            <a class="nav-link" href="#">
                 How to play
               </a>
             </div>
           </li>
-
           <li>
             <div class="faq">
-              <a class="nav-link" href="#">
+            <a class="nav-link" href="#">
                 FAQs
-              </a>
+            </a>
             </div>
           </li>
           <li>
@@ -46,8 +49,9 @@ function Navbar() {
               </a>
             </div>
             <div class="download">
-            < a href = {apkLink}>
-              <Button> Download App</Button></a>
+              <a href={apkLink}>
+                <Button> Download App</Button>
+              </a>
             </div>
           </li>
         </ul>

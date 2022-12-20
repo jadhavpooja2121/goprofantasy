@@ -6,9 +6,17 @@ import AppFeatures from "./components/Features";
 import HowToPlay from "./components/HowToPlay";
 import UserStoryFeature from "./components/UserStories";
 import FooterNote from "./components/Footer";
+import FAQComponent from "./components/FAQs";
+import Contact from "./components/Contact";
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from 'react-router-dom';
 
 function App() {
   return (
+    <Router>
     <div className="container">
       <div className="block1">
         <Navbar />
@@ -23,19 +31,16 @@ function App() {
         <div className="setCarousel">
           <LoadCarousel />
         </div>
-       
-       
-        
-       
       </div>
       <AppFeatures />
       <div>
-      <HowToPlay />
-      <UserStoryFeature />
-
+        <HowToPlay />
+        <UserStoryFeature />
       </div>
-      <FooterNote />
+      <FAQComponent />
+      <Contact />
     </div>
+    </Router>
   );
 }
 export default App;

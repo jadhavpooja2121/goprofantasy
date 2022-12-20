@@ -460,7 +460,44 @@ dd dl .term {
   background: #2ec2b0;
 }
 
-footer{
+.faq-data {
+  position: absolute;
+  width: 1400px;
+  height: 360px;
+  top: 2430px;
+  padding: "10px";
+
+  background: #4c31f5;
+
+}
+
+.collapsible {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 15px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  background-color: #ccc;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+
+
+.footer-data{
+  background-color: #000000;
   color: silver;
   position:absolute;
   top: 2500px;
@@ -468,4 +505,7 @@ footer{
   margin-top: 100%;
   bottom:0;
   width:100%;
+}
+footer{
+  background-color: #000000;
 }
