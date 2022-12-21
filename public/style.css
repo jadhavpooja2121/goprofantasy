@@ -1,3 +1,35 @@
+.body{
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.main div {
+  float: left;
+  clear: none;
+}
+
+.navigation{
+  color: #ffffff;
+  background: #30027a;
+}
+ul {
+  list-style-type: none;
+}
+li{
+  display: inline;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.link-style{
+  margin-left: auto;
+  text-decoration: none;
+  padding: 0 4rem;
+  font-size: 20px;
+}
+.list {
+  list-style: none;
+  
+}
 .brand {
   position: absolute;
   width: 286px;
@@ -11,7 +43,7 @@
   font-size: 40px;
   line-height: 48px;
 
-  color: #ffffff;
+  
 }
 
 .logo {
@@ -23,9 +55,7 @@
   object-fit: cover;
 }
 
-.list {
-  list-style: none;
-}
+
 
 .block1 {
   position: absolute;

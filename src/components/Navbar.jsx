@@ -5,7 +5,6 @@ import apkLink from "../Constants";
 import FAQComponent from "./FAQs";
 import { Link } from "react-router-dom";
 
-
 function Navbar() {
   function handleDownload() {
     const element = document.createElement("a");
@@ -14,49 +13,48 @@ function Navbar() {
     document.body.appendChild(element);
     element.click();
   }
- 
+
   return (
-    <nav class="navbar">
-      <div class="container-fluid">
-        <div class="logo">
-          <img
-            src="/images/app_logo.png"
-            width="130px"
-            height="90px"
-            alt="GoProFantasyLogo"
-          />
-        </div>
-        <div class="brand">GoProFantasy</div>
-        <ul class="list">
-          <li>
-            <div class="play">
-            <a class="nav-link" href="#">
-                How to play
-              </a>
+    <div class="container-fluid navigation">
+      <div className="row navigation">
+        <nav className="navbar">
+          <div className="col-sm-auto col-md-auto">
+            <div className="main">
+              <div>
+                <img
+                  src="/images/app_logo.png"
+                  width="130px"
+                  height="90px"
+                  alt="GoProFantasyLogo"
+                  className="image-responsive"
+                />
+              </div>
+              <div style={{ marginTop: "20px" }}>
+                <h1>GoProFantasy</h1>
+              </div>
             </div>
-          </li>
-          <li>
-            <div class="faq">
-            <a class="nav-link" href="#">
-                FAQs
-            </a>
+          </div>
+          <div className="navbar-nav">
+            <ul className="link-style">
+                <li >
+                  <Link style = {{color:"#fff", textDecoration:"none"}}to="/howtoplay"> How to play</Link>
+                </li>             
+              <li>              
+                  <Link style = {{color:"#fff", textDecoration:"none"}} to="/howtoplay">FAQs</Link>                
+              </li>
+              <li>               
+                  <Link style = {{color:"#fff", textDecoration:"none"}} to="/aboutus">About us</Link>               
+                  </li><li>
+                  <a href={apkLink}>
+                    <Button> Download App</Button>
+                  </a>
+                
+              </li>
+            </ul>
             </div>
-          </li>
-          <li>
-            <div class="about">
-              <a class="nav-link" href="#">
-                About us
-              </a>
-            </div>
-            <div class="download">
-              <a href={apkLink}>
-                <Button> Download App</Button>
-              </a>
-            </div>
-          </li>
-        </ul>
+        </nav>
       </div>
-    </nav>
+      </div>
   );
 }
 

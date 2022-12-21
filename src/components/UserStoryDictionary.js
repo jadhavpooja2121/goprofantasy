@@ -6,7 +6,7 @@ const users = [
     winningAmount: "1 Crore",
     picture: "images/userimages/pooja_hegade.jpg",
     story:
-      "I hate fantasy games, but this app made me to love fantasy games. First ever I came across the trustworthy app like this. Thanks GoProFantasy!"
+      "I really don't like fantasy games, but this app made me to love fantasy games. First ever I came across the trustworthy app like this. Thanks GoProFantasy!"
   },
   {
     id: 2,
