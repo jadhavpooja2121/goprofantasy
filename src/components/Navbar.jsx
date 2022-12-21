@@ -36,25 +36,31 @@ function Navbar() {
           </div>
           <div className="navbar-nav">
             <ul className="link-style">
-                <li >
-                  <Link style = {{color:"#fff", textDecoration:"none"}}to="/howtoplay"> How to play</Link>
-                </li>             
-              <li>              
-                  <Link style = {{color:"#fff", textDecoration:"none"}} to="/howtoplay">FAQs</Link>                
+              <li>
+                <Link className="nav-headers" to="/howtoplay">
+                  How to play
+                </Link>
               </li>
-              <li>               
-                  <Link style = {{color:"#fff", textDecoration:"none"}} to="/aboutus">About us</Link>               
-                  </li><li>
-                  <a href={apkLink}>
-                    <Button> Download App</Button>
-                  </a>
-                
+              <li>
+                <Link className="nav-headers" to="/howtoplay">
+                  FAQs
+                </Link>
+              </li>
+              <li>
+                <Link className="nav-headers" to="/aboutus">
+                  About us
+                </Link>
+              </li>
+              <li>
+                <a href={apkLink}>
+                  <Button> <h6 className = "nav-headers">Download App</h6></Button>
+                </a>
               </li>
             </ul>
-            </div>
+          </div>
         </nav>
       </div>
-      </div>
+    </div>
   );
 }
 
