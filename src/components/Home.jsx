@@ -9,7 +9,7 @@ import HowToPlay from './HowToPlay';
 
 const Home = () => {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid" style={{padding:"0"}}>
         <Navbar />
       </div>
      

@@ -15,8 +15,8 @@ function Navbar() {
   }
 
   return (
-    <div class="container-fluid navigation">
-      <div className="row navigation">
+    <div class="navigation row-style">
+      <div className="row">
         <nav className="navbar">
           <div className="col-sm-auto col-md-auto">
             <div className="main">
