@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import HowToPlay from "./HowToPlay";
 import QRImage from "./QRCode";
 import { AppDownload } from "./AppDownload";
+import { Disclaimer } from "./Desclaimer";
 
 const Home = () => {
   return (
@@ -19,6 +20,7 @@ const Home = () => {
       <FAQComponent />
       <AppDownload/>
       <Contact/>
+      <Disclaimer />
     </div>
   );
 };

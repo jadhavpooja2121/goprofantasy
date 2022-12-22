@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function HowToPlay() {
   return (
     <div className="row how-to-play-bg" style={{margin:"0px"}}>
-      <div className="row">
+      <div className="row" style={{background:"#f8bfff"}}>
         <h1 style={{ textAlign: "center", color: "#fbc531", padding: "10px 10px"}}>How To Play</h1>
       </div>
       <div class="row">
