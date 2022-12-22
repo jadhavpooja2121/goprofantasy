@@ -53,7 +53,11 @@ li {
   font-weight: 400;
   font-size: 25px;
   color: #fff;
-  text-decoration: none;  
+  text-decoration: none;
+}
+
+.how-to-play-bg {
+  background: #42158a;
 }
 
 .app-features-image {
@@ -64,291 +68,15 @@ li {
   background: url(images/player1.png);
 }
 
-.wrap-circle {
-  position: absolute;
-  width: 150px;
-  height: 100px;
-  left: 540px;
-  top: 824px;
-
-  background: #dedede;
-  box-shadow: 7px 9px 10px rgba(0, 0, 0, 0.5);
-}
-.feature-symbol{
+.feature-symbol {
   width: 70px;
   height: 50px;
   margin-right: 25px;
 }
 
-.feature-text{
+.feature-text {
   width: 263px;
   height: 31px;
-}
-
-.low-entry-fee-text {
-  position: absolute;
- 
-  left: 633px;
-  top: 205px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-.rupee-unwrap {
-  position: absolute;
-  width: 70px;
-  height: 50px;
-  left: 949px;
-  top: 200px;
-}
-.badge-reward {
-  position: absolute;
-  width: 316px;
-  height: 62px;
-  left: 1037px;
-  top: 200px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-.expert-team-symbol {
-  position: absolute;
-  width: 70px;
-  height: 80px;
-  left: 949px;
-  top: 300px;
-}
-.expert-team-text {
-  position: absolute;
-  width: 316px;
-  height: 62px;
-  left: 1037px;
-  top: 310px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-.cash-symbol {
-  position: absolute;
-  width: 70px;
-  height: 50px;
-  left: 540px;
-  top: 300px;
-}
-
-.cash-withdrawl-text {
-  position: absolute;
-  width: 263px;
-  height: 31px;
-  left: 633px;
-  top: 320px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-.expert-reward-symbol {
-  position: absolute;
-  width: 70px;
-  height: 50px;
-  left: 540px;
-  top: 400px;
-}
-
-.expert-reward-text {
-  position: absolute;
-  width: 263px;
-  height: 31px;
-  left: 633px;
-  top: 420px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-.chat-symbol {
-  position: absolute;
-  width: 70px;
-  height: 80px;
-  left: 949px;
-  top: 400px;
-}
-.chat-feture-text {
-  position: absolute;
-  width: 316px;
-  height: 62px;
-  left: 1037px;
-  top: 430px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-.get-expert-team-symbol {
-  position: absolute;
-  width: 70px;
-  height: 50px;
-  left: 540px;
-  top: 510px;
-}
-
-.get-expert-team-text {
-  position: absolute;
-  width: 263px;
-  height: 31px;
-  left: 633px;
-  top: 520px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-.offer-symbol {
-  position: absolute;
-  width: 70px;
-  height: 80px;
-  left: 949px;
-  top: 501px;
-}
-.offer-feature-text {
-  position: absolute;
-  width: 316px;
-  height: 62px;
-  left: 1037px;
-  top: 520px;
-
-  font-family: "Mulish";
-  font-style: normal;
-  font-weight: 700;
-  font-size: 25px;
-  line-height: 31px;
-  display: flex;
-  align-items: center;
-
-  color: #000000;
-}
-
-.how-to-play {
-  position: absolute;
-  width: 1440px;
-  height: 890px;
-  left: 0px;
-  top: 1270px;
-  background: #341f97;
-}
-.user-story-style {
-  position: absolute;
-  width: 1440px;
-  height: 130px;
-  left: 0px;
-  top: 1780px;
-  background: #4c31f5;
-}
-
-.play {
-  position: absolute;
-  width: 114px;
-  height: 24px;
-  left: 723px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #ffffff;
-}
-
-.faq {
-  position: absolute;
-  width: 51px;
-  height: 24px;
-  left: 871px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #ffffff;
-}
-
-.about {
-  position: absolute;
-  width: 90px;
-  height: 24px;
-  left: 955px;
-  top: 52px;
-
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 24px;
-
-  color: #ffffff;
-}
-
-.download {
-  position: absolute;
-  width: 232px;
-  height: 42px;
-  left: 1078px;
-  top: 43px;
 }
 .btn-primary {
   background: linear-gradient(180deg, #08d104 0%, #03a458 100%) !important;
@@ -360,7 +88,7 @@ li {
 }
 
 dt {
-  color: #2ec2b0;
+  color: #117468;
   line-height: 1;
 }
 
@@ -442,7 +170,7 @@ dd dl .term {
 
 .collapsible {
   background-color: #eee;
-  color: #444;
+  color: rgb(0, 0, 0);
   cursor: pointer;
   padding: 15px;
   width: 100%;
@@ -454,25 +182,23 @@ dd dl .term {
 
 .active,
 .collapsible:hover {
-  background-color: #ccc;
+  background-color: #aba7b6;
 }
 
+.link :hover{
+  color: #08d104;
+}
 .content {
   padding: 0 18px;
   display: none;
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #000000;
 }
 
 .footer-data {
   background-color: #000000;
   color: silver;
-  position: absolute;
-  top: 2500px;
   text-align: center;
-  margin-top: 100%;
-  bottom: 0;
-  width: 100%;
 }
 footer {
   background-color: #000000;

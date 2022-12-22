@@ -42,7 +42,7 @@ function Navbar() {
                 </Link>
               </li>
               <li>
-                <Link className="nav-headers" to="/howtoplay">
+                <Link className="nav-headers" to="/faqs">
                   FAQs
                 </Link>
               </li>

@@ -14,8 +14,7 @@ function getFAQData(faqprops) {
 
 function FAQComponent() {
   return (
-    <div className="row faq-data">
-      <div className="col-md">
+    <div className="row navigation" style={{margin:"0px"}}>
         <h1
           style={{
             backgroundColor: "#000000",
@@ -27,7 +26,6 @@ function FAQComponent() {
           FAQs about GoProFantasy
         </h1>
         <div>{FAQdata.map(getFAQData)}</div>
-      </div>
     </div>
   );
 }

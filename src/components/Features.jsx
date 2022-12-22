@@ -2,7 +2,7 @@ import React from "react";
 
 function AppFeatures() {
   return (
-    <div className="row navigation">
+    <div className="row navigation" style={{margin:"0px"}}>
       <div className="col-sm-auto col-md-auto">
        <img src="images/player1.png" className="image-responsive"/>
       </div>

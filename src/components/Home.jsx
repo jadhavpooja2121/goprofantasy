@@ -1,12 +1,12 @@
 import React from "react";
 import Navbar from "./Navbar";
-import LoadCarousel from "./Carousel";
 import AppFeatures from "./Features";
 import UserStoryFeature from "./UserStories";
 import FAQComponent from "./FAQs";
 import Contact from "./Contact";
 import HowToPlay from "./HowToPlay";
 import QRImage from "./QRCode";
+import { AppDownload } from "./AppDownload";
 
 const Home = () => {
   return (
@@ -14,6 +14,11 @@ const Home = () => {
       <Navbar />
       <QRImage />
       <AppFeatures/>
+      <HowToPlay/>
+      <UserStoryFeature/>
+      <FAQComponent />
+      <AppDownload/>
+      <Contact/>
     </div>
   );
 };
