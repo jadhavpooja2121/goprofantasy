@@ -15,52 +15,42 @@ function Navbar() {
   }
 
   return (
-    <div class="navigation row-style">
-      <div className="row">
-        <nav className="navbar">
-          <div className="col-sm-auto col-md-auto">
-            <div className="main">
-              <div>
-                <img
-                  src="/images/app_logo.png"
-                  width="130px"
-                  height="90px"
-                  alt="GoProFantasyLogo"
-                  className="image-responsive"
-                />
-              </div>
-              <div style={{ marginTop: "20px" }}>
-                <h1>GoProFantasy</h1>
-              </div>
-            </div>
+    <header className="header navigation">
+      <div className="brandname">
+          <img
+            src="/images/app_logo.png"
+            alt="GoProFantasyLogo"
+            className="logo"
+          />
+          <h1 style={{display:"inline-block"}}>GoProFantasy</h1>
           </div>
-          <div className="navbar-nav">
-            <ul className="link-style">
-              <li>
-                <Link className="nav-headers" to="/howtoplay">
-                  How to play
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-headers" to="/faqs">
-                  FAQs
-                </Link>
-              </li>
-              <li>
-                <Link className="nav-headers" to="/aboutus">
-                  About us
-                </Link>
-              </li>
-              <li>
-                <a href={apkLink}>
-                  <Button> <h6 className = "nav-headers">Download App</h6></Button>
-                </a>
-              </li>
-            </ul>
-          </div>
-        </nav>
-      </div>
-    </div>
+      <nav className="nav-menu">
+        <ul className="link-style">
+          <li>
+            <Link className="nav-headers" to="/howtoplay">
+              How to play
+            </Link>
+          </li>
+          <li className="">
+            <Link className="nav-headers" to="/faqs">
+              FAQs
+            </Link>
+          </li>
+          <li className="">
+            <Link className="nav-headers" to="/aboutus">
+              About us
+            </Link>
+            </li>
+            <li className="download-button-style">
+            <a href={apkLink}>
+              <Button className="">
+                <h6 className="">Download</h6>
+              </Button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
   );
 }
 

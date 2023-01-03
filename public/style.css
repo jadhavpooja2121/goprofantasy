@@ -7,27 +7,23 @@
   color: #ffffff;
   background: #30027a;
 }
+
 ul {
   list-style-type: none;
 }
-li {
-  display: inline;
-  margin-left: 20px;
-  margin-right: 20px;
-}
 
 .link-style {
-  margin-left: auto;
+  margin-right: 0px;
   text-decoration: none;
-  padding: 0 4rem;
-  font-size: 20px;
 }
 .list {
   list-style: none;
 }
 .row-style {
-  padding: 0px;
+  max-height: 100%;
+  max-width: 100%;
   margin: 0px;
+  padding: 0px;
 }
 
 .QR-block-style {
@@ -38,46 +34,16 @@ li {
   border-color: yellowgreen;
 }
 
-.scan-header {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 100;
-  font-size: 38px;
-  margin-left: 10px;
-  line-height: 50px;
-
-  color: #fff;
-}
 .nav-headers {
   font-family: "Inter";
-  font-weight: 400;
-  font-size: 25px;
   color: #fff;
   text-decoration: none;
 }
 
 .how-to-play-bg {
-  background: #42158a;
+  background: #39068b;
 }
 
-.app-features-image {
-  position: absolute;
-  width: 410px;
-  height: 800px;
-  left: 100px;
-  background: url(images/player1.png);
-}
-
-.feature-symbol {
-  width: 70px;
-  height: 50px;
-  margin-right: 25px;
-}
-
-.feature-text {
-  width: 263px;
-  height: 31px;
-}
 .btn-primary {
   background: linear-gradient(180deg, #08d104 0%, #03a458 100%) !important;
   border-radius: 7px !important;
@@ -143,6 +109,10 @@ dd dl .term {
   background-color: #fff;
   transition: all 100ms ease-in-out;
 }
+.how-to-play-heading {
+  color: #08d104;
+  text-align: center;
+}
 
 .user-heading {
   font-weight: 900;
@@ -185,7 +155,7 @@ dd dl .term {
   background-color: #aba7b6;
 }
 
-.link :hover{
+.link :hover {
   color: #08d104;
 }
 .content {
@@ -202,4 +172,552 @@ dd dl .term {
 }
 footer {
   background-color: #000000;
+}
+
+.main-nav-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 3.8rem;
+}
+
+.main-nav-link:link,
+.main-nav-link:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 1.8rem;
+  transition: all 0.3s;
+}
+.play-sub-heading {
+  color: #81ecec;
+  text-align: center;
+}
+/***************** Responsive design**************/
+/* BELOW 544px (Phones) */
+@media (max-width: 34em) {
+  html {
+    font-size: 30.5%;
+  }
+  .brandname {
+    max-width: 20%;
+  }
+  .nav-menu {
+    width: 70%;
+  }
+  li {
+    display: inline;
+    margin-right: 0px;
+  }
+  .link-style {
+    float: right;
+  }
+  .logo {
+    width: 20%;
+    height: 20%;
+    margin-left: 30px;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 9.6rem;
+    padding: 0 1.5rem;
+    position: relative;
+  }
+  .download-button-style {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .qr-image {
+    margin: 20px;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-top: 2rem;
+  }
+
+  section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .scan-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+    color: #fff;
+  }
+
+  .scrolling-image {
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+  }
+
+  /* .player-and-app-features {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  } */
+  .player-img {
+    height: 40rem;
+    width: 15rem;
+    padding: 20px;
+  }
+
+  .feature-img-text {
+    display: grid;
+    margin: 10px;
+    justify-content: space-between;
+  }
+
+  .feature-symbol {
+    width: 4rem;
+    height: 3rem;
+    margin-right: 2rem;
+  }
+
+  .feature-text {
+    max-width: 5rem;
+    height: 3rem;
+  }
+
+  .play-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .how-to-play-img {
+    width: 5rem;
+    height: 5rem;
+    display: block;
+  }
+}
+
+/* BELOW 704px (Smaller tablets) */
+@media ((min-width: 34em) and (max-width: 44em)) {
+  html {
+    font-size: 50.5%;
+  }
+  .brandname {
+    width: 10%;
+  }
+  .nav-menu {
+    width: 70%;
+  }
+  .link-style {
+    margin-right: 0px;
+    font-size: 1.2rem;
+  }
+  li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 9.6rem;
+    padding: 0 1.5rem;
+    position: relative;
+  }
+  .download-button-style {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .qr-image {
+    margin: 20px;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-top: 2rem;
+  }
+
+  section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .scan-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+    color: #fff;
+  }
+  .scrolling-image {
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+  }
+
+  /* .player-and-app-features{
+  
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+
+ 
+  
+} */
+
+  .player-img {
+    height: 60rem;
+    width: 30rem;
+    margin-left: 1rem;
+  }
+
+  .feature-symbol {
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+  }
+
+  .feature-text {
+    display: inline-block;
+  }
+  .play-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .how-to-play-img {
+    width: 12rem;
+    height: 10rem;
+    margin: 1rem;
+    display: block;
+  }
+}
+/* BELOW 944px (Tablets) */
+@media ((min-width: 44em) and (max-width: 59em)) {
+  html {
+    font-size: 52.5%;
+  }
+  .brandname {
+    width: 50%;
+  }
+  .nav-menu {
+    width: 70%;
+    margin-right: 0px;
+    margin-left: 5%;
+  }
+  .link-style {
+    margin-right: 0px;
+    font-size: 1.2rem;
+  }
+  li {
+    display: inline;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .logo {
+    width: 20%;
+    height: 20%;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 9.6rem;
+    padding: 0 1.5rem;
+    position: relative;
+  }
+
+  .download-button-style {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .qr-image {
+    margin: 20px;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-top: 2rem;
+  }
+
+  section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .scan-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+    color: #fff;
+  }
+
+  .scrolling-image {
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+  }
+  .player-img {
+    height: 60rem;
+    width: 30rem;
+    margin-left: 1rem;
+  }
+
+  .feature-symbol {
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+  }
+
+  .feature-text {
+    display: inline-block;
+  }
+  .play-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .play-block {
+    justify-content: center;
+  }
+  .how-to-play-img {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 6rem;
+    display: inline-block;
+  }
+}
+
+/* BELOW 1200px (Landscape Tablets) */
+@media (max-width: 75em) {
+  html {
+    font-size: 70%;
+  }
+  .brandname {
+    width: 20%;
+  }
+  .nav-menu {
+    width: 70%;
+  }
+  .link-style {
+    margin-right: 0px;
+  }
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+  }
+  .download-button-style {
+    font-size: 30px;
+    font-weight: 300;
+  }
+
+  .qr-image {
+    margin: 20px;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-top: 2rem;
+  }
+
+  section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .scan-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+    color: #fff;
+  }
+  .scrolling-image {
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+  }
+  .player-img {
+    height: 60rem;
+    width: 30rem;
+    margin-left: 1rem;
+  }
+
+  .feature-symbol {
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+  }
+
+  .feature-text {
+    display: inline-block;
+  }
+  .play-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .play-block {
+    justify-content: center;
+  }
+  .how-to-play-img {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 6rem;
+    display: inline-block;
+  }
+}
+
+/* above 1200px (Landscape Tablets) */
+@media (min-width: 75em) {
+  h1 {
+    font-size: 70%;
+  }
+  .brandname {
+    width: 100%;
+  }
+  .nav-menu {
+    width: 70%;
+  }
+
+  .link-style {
+    margin-right: 0px;
+    font-size: 25px;
+  }
+  li {
+    display: inline;
+    margin-left: 20px;
+  }
+  .logo {
+    width: 30%;
+    height: 30%;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9.6rem;
+    padding: 0 4.8rem;
+    position: relative;
+  }
+  .download-button-style {
+    font-size: 30px;
+    font-weight: 300;
+  }
+  .qr-image {
+    margin: 20px;
+    max-width: 10rem;
+    max-height: 10rem;
+    margin-top: 2rem;
+  }
+
+  section {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-around;
+  }
+
+  .scan-header {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    line-height: 3rem;
+    color: #fff;
+  }
+  .scrolling-image {
+    width: 20rem;
+    height: 15rem;
+    padding: 1rem;
+  }
+  .player-img {
+    height: 60rem;
+    width: 30rem;
+    margin-left: 1rem;
+  }
+
+  .feature-symbol {
+    width: 5rem;
+    height: 5rem;
+    margin: 2rem;
+  }
+
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+  }
+
+  .feature-text {
+    display: inline-block;
+  }
+  .play-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .play-block {
+    justify-content: center;
+  }
+  .how-to-play-img {
+    width: 15rem;
+    height: 15rem;
+    margin: 1rem 6rem;
+    display: inline-block;
+  }
 }

@@ -2,89 +2,56 @@ import React from "react";
 
 function AppFeatures() {
   return (
-    <div className="row navigation" style={{margin:"0px"}}>
-      <div className="col-sm-auto col-md-auto">
-       <img src="images/player1.png" className="image-responsive"/>
-      </div>
-      <div className="col-sm-auto col-md-auto">
+    <section className="navigation " style={{display:"grid",gridTemplateColumns: "1fr 1fr"}}>
+      
+      <img src="images/player1.png" className="player-img" />
+    <section className="feature-grid">
+        <div className="grid-item">
+          <img src="images/rupee.png" className="feature-symbol"/>
 
-        <div className="row main" style={{padding:"40px", marginTop:"50px"}}>
-          <div className="col-sm-auto col-md-6">
-            <div className="feature-symbol">
-              <img src="images/rupee.png" height="50px" width="70px" />
-            </div>
-            <div className="feature-text">
-              <h3>Lowest Entry Leagues</h3>
-            </div>
-          </div>
-          <div className="col-sm-auto col-md-6">
-            <div>
-              <img src="images/rupee.png" height="50px" width="70px" />
-            </div>
-            <div className="feature-text">
-              <h3>Get extra rewards on earning badges</h3>
-            </div>
-          </div>
+          <h3 className="feature-text ">Lowest Entry Leagues</h3>
         </div>
 
-        <div className="row main" style={{padding:"40px"}}>
-          <div className="col-sm-auto col-md-6">
-            <div className="feature-symbol">
-              <img src="images/expert-icon.png" height="70px" width="80px" />
-            </div>
-            <div className="feature-text">
-              <h3> Instant cash withdrawl </h3>
-            </div>
-          </div>
-          <div className="col-sm-auto col-md-6">
-            <div className="feature-symbol">
-              <img src="images/expert-icon.png" height="70px" width="80px" />
-            </div>
-            <div className="feature-text">
-              <h3> Create Expert Team </h3>
-            </div>
-          </div>
+        <div className="grid-item">
+          <img src="images/rupee.png" className="feature-symbol"/>
+
+          <h3 className="feature-text ">Get extra rewards on earning badges</h3>
         </div>
 
-      <div className="row main" style={{padding:"40px"}}>
-        <div className="col-sm-auto col-md-6">
-          <div className="feature-symbol">
-            <img src="images/expert-icon.png" height="70px" width="80px" />
-          </div>
-          <div className="feature-text">
-            <h3> Get a team created by our expert</h3>
-          </div>
-        </div>
-        <div className="col-sm-auto col-md-6">
-          <div className="feature-symbol">
-            <img src="images/expert-icon.png" height="70px" width="80px" />
-          </div>
-          <div className="feature-text">
-            <h3> Regular offers and discounts</h3>
-          </div>
-        </div>
-      </div>
+        <div className="grid-item">
+          <img src="images/expert-icon.png" className="feature-symbol"/>
 
-      <div className="row main" style={{padding:"40px"}}>
-        <div className="col-sm-auto col-md-auto">
-          <div className="feature-symbol">
-            <img src="images/expert-icon.png" height="70px" width="80px" />
-          </div>
-          <div className="feature-text">
-            <h3> Get rewarded for being expert</h3>
-          </div>
+          <h3 className="feature-text "> Instant cash withdrawl </h3>
         </div>
-        <div className="col-sm-auto col-md-auto">
-          <div className="feature-symbol">
-            <img src="images/expert-icon.png" height="70px" width="80px" />
-          </div>
-          <div className="feature-text">
-            <h3> Play along chat with opponents in live match</h3>
-          </div>
+        <div className="grid-item">
+          <img src="images/expert-icon.png"  className="feature-symbol"/>
+
+          <h3 className="feature-text "> Create Expert Team </h3>
         </div>
+
+        <div className="grid-item">
+          <img src="images/expert-icon.png"  className="feature-symbol"/>
+
+          <h3 className="feature-text "> Get a team created by our expert</h3>
         </div>
-      </div>
-    </div>
+
+        <div className="grid-item">
+          <img src="images/expert-icon.png"  className="feature-symbol"/>
+
+          <h3 className="feature-text "> Regular offers and discounts</h3>
+        </div>
+        <div className="grid-item">
+          <img src="images/expert-icon.png"  className="feature-symbol"/>
+
+          <h3 className="feature-text "> Get rewarded for being expert</h3>
+        </div>
+        <div className="grid-item">
+          <img src="images/expert-icon.png"  className="feature-symbol"/>
+
+          <h3 className="feature-text "> Play along chat with opponents in live match</h3>
+        </div>
+        </section>
+    </section>
   );
 }
 export default AppFeatures;

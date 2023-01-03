@@ -4,7 +4,7 @@ function ScrollingImage(props) {
   return (
     <div>
       <div>
-        <img src={props.src} width="200px" height="300px" style={{objectFit:"fill"}}/>
+        <img src={props.src} className="scrolling-image"/>
       </div>
     </div>
   );

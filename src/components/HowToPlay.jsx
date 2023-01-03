@@ -3,54 +3,44 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function HowToPlay() {
   return (
-    <div className="row how-to-play-bg" style={{margin:"0px"}}>
-      <div className="row" style={{background:"#f8bfff"}}>
-        <h1 style={{ textAlign: "center", color: "#fbc531", padding: "10px 10px"}}>How To Play</h1>
-      </div>
-      <div class="row">
-        <div class="col-sm-auto col-md-auto">
-          <div>
-            <h2 style={{ textAlign: "center", color: "#81ecec"}}>
+    <div className="how-to-play-bg">
+     
+        <h1 className="how-to-play-heading">How To Play</h1>
+    
+    <div className="play-grid">
+      <div className="play-block">
+            <h2 className="play-sub-heading">
               1. Select a Match
             </h2>
-          </div>
-          <div style={{padding: "20px 40px 20px"}}>
+         
+          
             <img
               src="images/selectMatch.jpg"
-              width="300px"
-              height="300px"
-            ></img>
-          </div>
-        </div>
-        <div class="col-sm-auto col-md-auto">
-          <div>
-            <h2 style={{ textAlign: "center", color: "#81ecec"}}>
+             className="how-to-play-img"
+            />
+         </div>
+         <div className="play-block">
+            <h2 className="play-sub-heading">
               2. Create a team
             </h2>
-          </div>
-          <div style={{padding: "20px 40px 20px"}}>
+          
             <img
               src="images/createTeam.jpg"
-              width="300px"
-              height="300px"
-            ></img>
+             className="how-to-play-img"
+            />
           </div>
-        </div>
-        <div class="col-sm-auto col-md-auto">
-          <div>
-            <h2 style={{ textAlign: "center", color: "#81ecec"}}>
+          <div className="play-block">
+       
+            <h2 className="play-sub-heading">
               3. Join a contest
             </h2>
-          </div>
-          <div style={{padding: "20px 40px 20px"}}>
+         
             <img
               src="images/joinContest.jpg"
-              width="300px"
-              height="300px"
-            ></img>
+             className="how-to-play-img"
+            />
+            </div>
           </div>
-        </div>
-      </div>
     </div>
   );
 }
