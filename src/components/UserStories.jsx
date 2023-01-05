@@ -24,7 +24,7 @@ function UserStoryFeature() {
           </h3>
         </div>
         <div className="row" style={{margin:"0px", padding:"0px"}}>
-        <div style={{ padding: "20px 25px", backgroundColor: "#30027a" }}>
+        <div className="user-story-card">
           <div className="dictionary">
               {users.map(getUsers)}
           </div>

@@ -19,7 +19,7 @@ function toggleElement() {
 }
 function FAQ(props) {
   return (
-    <div style={{padding:"7px 50px"}}>
+    <div className="faq-item">
       <button type="button" class="collapsible" onClick={toggleElement}>
         {props.question}
       </button>

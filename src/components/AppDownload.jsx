@@ -1,19 +1,24 @@
-import React from 'react'
-import { Button } from 'react-bootstrap'
+import React from "react";
+import { Button } from "react-bootstrap";
 export const AppDownload = () => {
   return (
-    <div class="container-fluid navigation">
-    <div className="row" style={{margin:"0px"}}>
-      <div className="col-sm-auto col-md-auto" style={{margin:"100px"}}>
-        <h1 style={{textAlign:"center"}}> Download the app now!</h1>
-        <h5 tyle={{textAlign:"center"}}>Create team, join contest and win exiciting prizes</h5>
-      <div><Button> <img src="images/Google-Play-Store.jpg" alt="" width={"150px"} height={"80px"}/></Button> &nbsp;
-       <Button> <img src="images/app-store.jpg" width={"150px"} height={"80px"}/> </Button></div> 
+    <div className="row" style={{ margin: "0px" }}>
+      <div className="download-banner">
+        <div className="banner-items">
+          <h1 className="download-banner-heading"> Download the app now!</h1>
+          <h5 className="download-banner-sub-title">
+            Create team, join contest and win exiciting prizes
+          </h5>
+          <div className="playstore-buttons">
+            <button className="download-playstore-btn"></button>
+            <button className="download-appstore-btn"></button>
+          </div>
+        </div>
+
+        <div className="banner-items">
+          <img src="images/gamezy-banner.png" alt="fantasy-fun" />
+        </div>
+      </div>
     </div>
-    <div className="col-sm-auto col-md-auto" style={{margin:"100px"}}>
-    <img src="images/gamezy-banner.png" alt="" />
-    </div>
-    </div>
-    </div>
-  )
-}
+  );
+};

@@ -15,13 +15,7 @@ function getFAQData(faqprops) {
 function FAQComponent() {
   return (
     <div className="row navigation" style={{margin:"0px"}}>
-        <h1
-          style={{
-            backgroundColor: "#000000",
-            color: "#FFFFFF",
-            textAlign: "center",
-            height: "70px",
-          }}
+        <h1 className="faq-header"
         >
           FAQs about GoProFantasy
         </h1>

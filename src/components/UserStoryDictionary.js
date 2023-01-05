@@ -3,7 +3,7 @@ const users = [
     id: 1,
     username: "Pooja Jadhav",
     city: "Nashik, Maharashtra",
-    winningAmount: "1 Crore",
+    winningAmount: "10 Crore",
     picture: "images/userimages/pooja_hegade.jpg",
     story:
       "I really don't like fantasy games, but this app made me to love fantasy games. First ever I came across the trustworthy app like this. Thanks GoProFantasy!"
@@ -12,7 +12,7 @@ const users = [
     id: 2,
     username: "Krushna Korade",
     city: "Pune, Maharashtra",
-    winningAmount: "2 Crore",
+    winningAmount: "5 Crore",
     picture: "images/userimages/mahesh_babu.jpg",
     story:
       "I still can't believe that I won such a big amount! My dream came true! Also I win regularly on this app as an expert. This is like my passive source of income now!"
