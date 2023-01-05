@@ -112,6 +112,7 @@ dd dl .term {
 .how-to-play-heading {
   color: #08d104;
   text-align: center;
+  padding: 2rem 0rem;
 }
 
 .user-heading {
@@ -196,27 +197,31 @@ footer {
 }
 /***************** Responsive design**************/
 /* BELOW 544px (Phones) */
-@media (max-width: 34em) {
+@media (max-width: 544px) {
   html {
     font-size: 30.5%;
   }
   .brandname {
-    max-width: 20%;
+    display: inline;
+    width: 44%;
+    margin-top: 2rem;
   }
   .nav-menu {
     width: 70%;
   }
+  .link-style {
+    margin-right: 0px;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    float:right;
+  }
   li {
     display: inline;
-    margin-right: 0px;
-  }
-  .link-style {
-    float: right;
+    padding:2rem;
   }
   .logo {
-    width: 20%;
-    height: 20%;
-    margin-left: 30px;
+    width: 10rem;
+    height: 5rem;
   }
 
   .header {
@@ -239,6 +244,16 @@ footer {
     margin-top: 2rem;
   }
 
+  .feature-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+  }
+  .feature-text {
+    display: inline-block;
+  }
   section {
     display: flex;
     align-items: flex-start;
@@ -250,8 +265,8 @@ footer {
     font-style: normal;
     font-weight: 100;
     font-size: 2rem;
-    margin-left: 0.5rem;
-    margin-right: 1rem;
+   margin: 2rem;
+   width:10%;
     line-height: 3rem;
     color: #fff;
   }
@@ -268,9 +283,9 @@ footer {
     justify-content: space-between;
   } */
   .player-img {
-    height: 40rem;
-    width: 15rem;
-    padding: 20px;
+    height: 60rem;
+    width: 30rem;
+    margin-left: 1rem;
   }
 
   .feature-img-text {
@@ -285,29 +300,40 @@ footer {
     margin-right: 2rem;
   }
 
-  .feature-text {
-    max-width: 5rem;
-    height: 3rem;
-  }
+ 
 
   .play-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .instr-img{
+    align-items: center;
+  }
   .how-to-play-img {
-    width: 5rem;
-    height: 5rem;
+    width: 20rem;
+    height: 14rem;
+    /* align-self: center; */
+    margin: 2rem;
     display: block;
   }
+  .play-block {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr 5fr;
+  }
+ 
 }
 
 /* BELOW 704px (Smaller tablets) */
-@media ((min-width: 34em) and (max-width: 44em)) {
+@media ((min-width: 545px) and (max-width: 704px)) {
   html {
     font-size: 50.5%;
   }
   .brandname {
-    width: 10%;
+    display: inline;
+    width: 44%;
+    margin-top: 2rem;
   }
   .nav-menu {
     width: 70%;
@@ -315,20 +341,21 @@ footer {
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
+    margin-left: 2rem;
+    float:right;
   }
   li {
     display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding:2rem;
   }
   .logo {
-    width: 20%;
-    height: 20%;
+    width: 10rem;
+    height: 5rem;
   }
   .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: flex-start;
     height: 9.6rem;
     padding: 0 1.5rem;
     position: relative;
@@ -356,8 +383,8 @@ footer {
     font-style: normal;
     font-weight: 100;
     font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 2rem;
+    width:10%;
     line-height: 3rem;
     color: #fff;
   }
@@ -405,19 +432,27 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .how-to-play-img {
-    width: 12rem;
-    height: 10rem;
-    margin: 1rem;
+    width: 20rem;
+    height: 12rem;
+    /* align-self: center; */
     display: block;
+  }
+  .play-block {
+    display:grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-rows: 1fr 5fr;
   }
 }
 /* BELOW 944px (Tablets) */
-@media ((min-width: 44em) and (max-width: 59em)) {
+@media ((min-width: 705px) and (max-width: 944px)) {
   html {
     font-size: 52.5%;
   }
   .brandname {
-    width: 50%;
+    display: inline;
+    width: 44%;
+    margin-top: 2rem;
   }
   .nav-menu {
     width: 70%;
@@ -427,15 +462,16 @@ footer {
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
+    margin-left: 2rem;
+    float:right;
   }
   li {
     display: inline;
-    margin-left: 20px;
-    margin-right: 20px;
+    padding:2rem;
   }
   .logo {
-    width: 20%;
-    height: 20%;
+    width: 10rem;
+    height: 5rem;
   }
   .header {
     display: flex;
@@ -468,8 +504,8 @@ footer {
     font-style: normal;
     font-weight: 100;
     font-size: 2rem;
-    margin-left: 0.5rem;
-    margin-right: 1rem;
+    margin: 2rem;
+    width:10%;
     line-height: 3rem;
     color: #fff;
   }
@@ -507,37 +543,45 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .play-block {
+    display:grid;
+    align-items: center;
     justify-content: center;
+    grid-template-rows: 1fr 5fr;
   }
   .how-to-play-img {
-    width: 15rem;
-    height: 15rem;
-    margin: 1rem 6rem;
-    display: inline-block;
+    width: 20rem;
+    height: 12rem;
+    /* align-self: center; */
+    display: block;
   }
 }
 
 /* BELOW 1200px (Landscape Tablets) */
-@media (max-width: 75em) {
+@media ((min-width: 945px) and (max-width: 1200px)) {
   html {
     font-size: 70%;
   }
   .brandname {
-    width: 20%;
+    display: inline;
+    width: 44%;
+    margin-top: 2rem;
   }
   .nav-menu {
     width: 70%;
   }
   .link-style {
     margin-right: 0px;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    float:right;
   }
   li {
     display: inline;
-    margin-left: 20px;
+    padding:2rem;
   }
   .logo {
-    width: 30%;
-    height: 30%;
+    width: 10rem;
+    height: 5rem;
   }
 
   .header {
@@ -571,8 +615,8 @@ footer {
     font-style: normal;
     font-weight: 100;
     font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 2rem;
+    width:10%;
     line-height: 3rem;
     color: #fff;
   }
@@ -609,23 +653,28 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .play-block {
+    display:grid;
+    align-items: center;
     justify-content: center;
+    grid-template-rows: 1fr 5fr;
   }
   .how-to-play-img {
-    width: 15rem;
-    height: 15rem;
-    margin: 1rem 6rem;
-    display: inline-block;
+    width: 20rem;
+    height: 12rem;
+    /* align-self: center; */
+    display: block;
   }
 }
 
 /* above 1200px (Landscape Tablets) */
-@media (min-width: 75em) {
+@media (min-width: 1201px) {
   h1 {
     font-size: 70%;
   }
   .brandname {
-    width: 100%;
+    display: inline;
+    width: 44%;
+    margin-top: 2rem;
   }
   .nav-menu {
     width: 70%;
@@ -633,15 +682,17 @@ footer {
 
   .link-style {
     margin-right: 0px;
-    font-size: 25px;
+    font-size: 1.2rem;
+    margin-left: 2rem;
+    float:right;
   }
   li {
     display: inline;
-    margin-left: 20px;
+    padding:2rem;
   }
   .logo {
-    width: 30%;
-    height: 30%;
+    width: 10rem;
+    height: 5rem;
   }
 
   .header {
@@ -674,8 +725,8 @@ footer {
     font-style: normal;
     font-weight: 100;
     font-size: 2rem;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin: 2rem;
+    width:10%;
     line-height: 3rem;
     color: #fff;
   }
@@ -712,12 +763,15 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .play-block {
+    display:grid;
+    align-items: center;
     justify-content: center;
+    grid-template-rows: 1fr 5fr;
   }
   .how-to-play-img {
-    width: 15rem;
-    height: 15rem;
-    margin: 1rem 6rem;
-    display: inline-block;
+    width: 20rem;
+    height: 12rem;
+    /* align-self: center; */
+    display: block;
   }
 }

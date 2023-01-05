@@ -12,13 +12,13 @@ function HowToPlay() {
             <h2 className="play-sub-heading">
               1. Select a Match
             </h2>
-         
-          
+                 
             <img
               src="images/selectMatch.jpg"
              className="how-to-play-img"
             />
-         </div>
+            </div>
+       
          <div className="play-block">
             <h2 className="play-sub-heading">
               2. Create a team

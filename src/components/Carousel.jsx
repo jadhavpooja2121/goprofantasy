@@ -4,6 +4,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 import { scrollingImages } from "../Constants";
 import ScrollingImage from "./ScrollingImage";
+import { CarouselItem } from "react-bootstrap";
 
 function addImage(imageProps) {
   return (
@@ -17,7 +18,14 @@ function addImage(imageProps) {
 
 function LoadCarousel() {
   return (
-    <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false}>
+    <Carousel
+      infiniteLoop
+      useKeyboardArrows
+      autoPlay
+      showThumbs={false}
+      showIndicators={false}
+      showStatus={false}
+    >
       {scrollingImages.map(addImage)}
     </Carousel>
   );
