@@ -15,8 +15,8 @@ export const AppDownload = () => {
           </div>
         </div>
 
-        <div className="banner-items">
-          <img src="images/gamezy-banner.png" alt="fantasy-fun" />
+        <div className="banner-items fantasy-fun">
+          <img src="images/gamezy-banner.png" alt="fantasy-fun" className="fantasy-fun-img" />
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ const users = [
     username: "Pooja Jadhav",
     city: "Nashik, Maharashtra",
     winningAmount: "10 Crore",
-    picture: "images/userimages/pooja_hegade.jpg",
+    picture: "images/userimages/pooja.jpg",
     story:
       "I really don't like fantasy games, but this app made me to love fantasy games. First ever I came across the trustworthy app like this. Thanks GoProFantasy!"
   },

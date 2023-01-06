@@ -26,22 +26,22 @@ function Navbar() {
           </div>
       <nav className="nav-menu">
         <ul className="link-style">
-          <li>
+          <li className="li-items">
             <Link className="nav-headers" to="/howtoplay">
               How to play
             </Link>
           </li>
-          <li className="">
+          <li className="li-items">
             <Link className="nav-headers" to="/faqs">
               FAQs
             </Link>
           </li>
-          <li className="">
+          <li className="li-items">
             <Link className="nav-headers" to="/aboutus">
               About us
             </Link>
             </li>
-            <li className="download-button-style">
+            <li className="li-items download-button-style">
             <a href={apkLink}>
               <Button className="">
                 <h6 className="">Download</h6>

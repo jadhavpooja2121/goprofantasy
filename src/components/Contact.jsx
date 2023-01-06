@@ -3,100 +3,77 @@ import FooterNote from "./Footer";
 
 function Contact() {
   return (
-    <div className="row footer-data" style={{ margin: "0px" }}>
+    <div className="footer-data">
       <footer
         class="page-footer font-small blue pt-4"
         style={{ margin: "0px" }}
       >
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-sm-auto col-md-auto">
-              <p>
+        <div class="footer-wrapper">
+          <div className="footer-items">
+            <div>
+              <img src="/images/app_logo.png" alt="logo" className="logo" />
+              <h2 className="footer-brandname">GoProFantasy</h2>
+            </div>
+            <div className="contact-grid">
+              <h4 className="contact-info">Contact us at</h4>
+              <h6 className="contact-mail">📩 support@goprofantasy.com</h6>
+              <h4 className="inquiry-title">For Business Inquiries</h4>
+              <h6>📩 customer@goprofantasy.com</h6>
+            </div>
+          </div>
+
+          <div className="info-block">
+            <h5 class="text-uppercase">Information</h5>
+
+            <ul className="info-items">
+              <li className="info-links">
+                <a href="#!">About us</a>
+              </li>
+              <li className="info-links">
+                <a href="#!">FAQs</a>
+              </li>
+              <li className="info-links">
+                <a href="#!">Privacy policy</a>
+              </li>
+              <li className="info-links">
+                <a href="#!">Careers</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="footer-item">
+            <h5 class="text-uppercase">Follow us on Social media</h5>
+
+            <ul class="list-unstyled">
+              <li>
                 <img
-                  src="/images/app_logo.png"
-                  alt="logo"
+                  src="images/Facebook_logo.png"
+                  alt=""
                   width={"100px"}
-                  height={"50px"}
+                  height={"100px"}
                 />
-                <h2 style={{ textAlign: "center" }}>GoProFantasy</h2>
-                <h4 style={{ textAlign: "left", padding: "0px 30px" }}>
-                  Contact us at
-                </h4>
-                <h6 style={{ textAlign: "left", padding: "0px 30px" }}>
-                  {" "}
-                  📩 support@goprofantasy.com
-                </h6>
-                <h4 style={{ textAlign: "left", padding: "0px 30px" }}>
-                  For Business Inquiries
-                </h4>
-                <h6 style={{ textAlign: "left", padding: "0px 30px" }}>
-                  {" "}
-                  📩 customer@goprofantasy.com
-                </h6>
-              </p>
-            </div>
-
-            <div class="col-sm-auto col-md-auto" style={{ paddingLeft: "0px" }}>
-              <h5 class="text-uppercase">Information</h5>
-
-              <ul>
-                <li
-                  style={{ display: "block", float: "none", textAlign: "left" }}
-                >
-                  <a href="#!">About us</a>
-                </li>
-                <li
-                  style={{ display: "block", float: "none", textAlign: "left" }}
-                >
-                  <a href="#!">FAQs</a>
-                </li>
-                <li
-                  style={{ display: "block", float: "none", textAlign: "left" }}
-                >
-                  <a href="#!">Privacy policy</a>
-                </li>
-                <li
-                  style={{ display: "block", float: "none", textAlign: "left" }}
-                >
-                  <a href="#!">Careers</a>
-                </li>
-              </ul>
-            </div>
-
-            <div class="col-sm-auto col-md-auto">
-              <h5 class="text-uppercase">Follow us on Social media</h5>
-
-              <ul class="list-unstyled">
-                <li>
-                  <img
-                    src="images/Facebook_logo.png"
-                    alt=""
-                    width={"100px"}
-                    height={"100px"}
-                  />
-                </li>
-                <li >
-                  <img
-                    src="images/linkedin.png"
-                    alt=""
-                    width={"100px"}
-                    height={"100px"}
-                  />
-                </li>
-                <li>
-                  <img
-                    src="images/twitter.png"
-                    alt=""
-                    width={"100px"}
-                    height={"100px"}
-                  />
-                </li>
-              </ul>
-            </div>
+              </li>
+              <li>
+                <img
+                  src="images/linkedin.png"
+                  alt=""
+                  width={"100px"}
+                  height={"100px"}
+                />
+              </li>
+              <li>
+                <img
+                  src="images/twitter.png"
+                  alt=""
+                  width={"100px"}
+                  height={"100px"}
+                />
+              </li>
+            </ul>
           </div>
         </div>
       </footer>
-      <FooterNote></FooterNote>
+      <FooterNote />
     </div>
   );
 }
