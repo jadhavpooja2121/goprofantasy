@@ -265,39 +265,40 @@ a {
   font-weight: bold;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-.about-bg-style{
-background-color: #679bcc;
-}.about-p1{
-  display:flex;
+.about-bg-style {
+  background-color: #679bcc;
+}
+.about-p1 {
+  display: flex;
   justify-content: space-between;
 }
-.about-p2{
-  display:flex;
+.about-p2 {
+  display: flex;
   justify-content: space-between;
 }
-.desc-heading{
+.desc-heading {
   width: 40%;
   padding: 1rem;
-  font-size:3rem;
+  font-size: 3rem;
   color: #331016;
   font-weight: bolder;
 }
-.desc{
+.desc {
   padding: 1rem;
   font-size: 1.5em;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
-.home-link{
-  color:#fff;
+.home-link {
+  color: #fff;
 }
-.home-link:hover{
-  color:#81ecec;
+.home-link:hover {
+  color: #81ecec;
 }
-.privacy-policy-container{
-display:grid;
-grid-template-rows: 1fr 1fr 1fr 1fr;
-padding:1rem;
-background-color: #4c31f5;
+.privacy-policy-container {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  padding: 1rem;
+  background-color: #4c31f5;
 }
 /***************** Responsive design**************/
 /* BELOW 544px (Phones) */
@@ -323,7 +324,7 @@ background-color: #4c31f5;
     padding: 2rem;
     text-decoration: none;
   }
- 
+
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
