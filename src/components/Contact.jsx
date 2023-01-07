@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import FooterNote from "./Footer";
 
 function Contact() {
@@ -27,53 +28,52 @@ function Contact() {
 
             <ul className="info-items">
               <li className="info-links">
-                <a href="#!">About us</a>
+                <Link to="/aboutus" className="page-links">About us</Link>
               </li>
               <li className="info-links">
-                <a href="#!">FAQs</a>
+                <Link to="/faqs" className="page-links">FAQs</Link>
               </li>
               <li className="info-links">
-                <a href="#!">Privacy policy</a>
+                <Link to="/privacypolicy" className="page-links">Privacy policy</Link>
               </li>
               <li className="info-links">
-                <a href="#!">Careers</a>
+                <Link to="/careers" className="page-links">Careers</Link>
               </li>
             </ul>
-          </div>
+          </div> 
 
           <div class="footer-item">
             <h5 class="text-uppercase">Follow us on Social media</h5>
 
             <ul class="list-unstyled">
-              <li>
-                <img
+              <li className="social-media-links" >
+                 <img
                   src="images/Facebook_logo.png"
-                  alt=""
-                  width={"100px"}
-                  height={"100px"}
+                  alt="facebook-logo"
+                  className="social-media-logos"
                 />
               </li>
-              <li>
+              <li className="social-media-links">
                 <img
                   src="images/linkedin.png"
-                  alt=""
-                  width={"100px"}
-                  height={"100px"}
-                />
+                  alt="linkedin-logo"
+                  className="social-media-logos"                />
               </li>
-              <li>
+              <li className="social-media-links">
                 <img
                   src="images/twitter.png"
-                  alt=""
-                  width={"100px"}
-                  height={"100px"}
-                />
+                  alt="twitter-logo"
+                  className="social-media-logos"                />
               </li>
+              
             </ul>
+            <FooterNote />
           </div>
         </div>
+
       </footer>
-      <FooterNote />
+    
+
     </div>
   );
 }

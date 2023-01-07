@@ -5,7 +5,9 @@ let year = date.getFullYear();
 
 function FooterNote(){
     return(
-        <footer>© {year} GoProFantasy.com. All rights are reserved. </footer>
+        <div className='copyright-style'>
+        © {year} GoProFantasy.com. All rights are reserved. 
+        </div>
     );
 
 }

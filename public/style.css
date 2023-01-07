@@ -192,55 +192,80 @@ footer {
   justify-content: space-around;
 }
 
-.fantasy-fun{
-justify-items: space-around;
+.fantasy-fun {
+  justify-items: space-around;
 }
-.fantasy-fun-img{
-  width:30rem;
-  height:30rem;
+.fantasy-fun-img {
+  width: 30rem;
+  height: 30rem;
 }
-.footer-wrapper{
-  display:flex;
+.footer-wrapper {
+  display: flex;
   justify-content: space-around;
   flex: wrap;
 }
-.footer-items{
+.footer-items {
   justify-content: space-around;
   align-items: center;
 }
-.footer-brandname{
+.footer-brandname {
   display: inline;
 }
-.contact-grid{
+.contact-grid {
   display: grid;
   grid-template-rows: 1fr 1ft;
 }
-.contact-info{
-margin-top:1rem;
-
-}
-.contact-mail{
-  display:block
-}
-.inquiry-title{
+.contact-info {
   margin-top: 1rem;
 }
-.info-block{
+.contact-mail {
+  display: block;
+}
+.inquiry-title {
+  margin-top: 1rem;
+}
+.info-block {
   align-items: center;
 }
-.info-items{
+.info-items {
   padding: 0px;
-  text-decoration: none;
   list-style: none;
 }
-.info-links{
-display: block;
-}
-.li-items{
-  display: inline;
-  padding: 2rem;
+.info-links {
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
 }
 
+.li-items {
+  display: inline;
+  padding: 2rem;
+  text-decoration: none;
+}
+a {
+  text-decoration: none !important;
+}
+
+.page-links {
+  font-size: 1.5rem;
+}
+.social-media-links {
+  display: inline;
+  padding: 2rem 1rem;
+}
+.social-media-logos {
+  width: 4rem;
+  height: 4rem;
+}
+.copyright-style {
+  float: right;
+  margin-top: 6rem;
+}
+.desclaimer-style{
+  text-align: center;
+   color: #fff; 
+   background:#4D4D4D;
+}
 /***************** Responsive design**************/
 /* BELOW 544px (Phones) */
 @media (max-width: 544px) {
@@ -262,7 +287,6 @@ display: block;
     float: right;
   }
 
-  
   /* li {
     display: inline;
     padding: 2rem;
@@ -688,7 +712,7 @@ display: block;
     text-decoration: none;
     font-size: 15px;
   }
- 
+
   .logo {
     width: 10rem;
     height: 5rem;
@@ -842,11 +866,11 @@ display: block;
     background-size: cover;
     width: 150px;
     height: 100px;
-    margin-left:5rem;
+    margin-left: 5rem;
     object-fit: contain;
     border-radius: 15px;
   }
-  
+
   .download-appstore-btn {
     background-image: url(images/app-store.jpg);
     background-size: cover;
@@ -1076,7 +1100,7 @@ display: block;
     text-decoration: none;
     font-size: 20px;
   }
- 
+
   .logo {
     width: 10rem;
     height: 5rem;
