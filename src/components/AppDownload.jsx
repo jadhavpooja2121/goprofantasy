@@ -10,13 +10,21 @@ export const AppDownload = () => {
             Create team, join contest and win exiciting prizes
           </h5>
           <div className="playstore-buttons">
-            <button className="download-playstore-btn"></button>
-            <button className="download-appstore-btn"></button>
+            <a href="#">
+              <button className="download-playstore-btn"></button>
+            </a>
+            <a href="#">
+              <button className="download-appstore-btn"></button>
+            </a>
           </div>
         </div>
 
         <div className="banner-items fantasy-fun">
-          <img src="images/gamezy-banner.png" alt="fantasy-fun" className="fantasy-fun-img" />
+          <img
+            src="images/gamezy-banner.png"
+            alt="fantasy-fun"
+            className="fantasy-fun-img"
+          />
         </div>
       </div>
     </div>

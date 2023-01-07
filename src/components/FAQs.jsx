@@ -1,5 +1,5 @@
 import React from "react";
-import FAQdata from "../FAQdata";
+import FAQdata from "../data/FAQdata";
 import FAQ from "./FAQ";
 
 function getFAQData(faqprops) {
@@ -14,12 +14,9 @@ function getFAQData(faqprops) {
 
 function FAQComponent() {
   return (
-    <div className="row navigation" style={{margin:"0px"}}>
-        <h1 className="faq-header"
-        >
-          FAQs about GoProFantasy
-        </h1>
-        <div>{FAQdata.map(getFAQData)}</div>
+    <div className="row navigation" style={{ margin: "0px" }} id="faqs">
+      <h1 className="faq-header">FAQs about GoProFantasy</h1>
+      <div>{FAQdata.map(getFAQData)}</div>
     </div>
   );
 }

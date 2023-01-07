@@ -237,11 +237,6 @@ footer {
   list-style-type: none;
 }
 
-.li-items {
-  display: inline;
-  padding: 2rem;
-  text-decoration: none;
-}
 a {
   text-decoration: none !important;
 }
@@ -261,10 +256,48 @@ a {
   float: right;
   margin-top: 6rem;
 }
-.desclaimer-style{
+.desclaimer-style {
   text-align: center;
-   color: #fff; 
-   background:#4D4D4D;
+  color: #fff;
+  background: #4d4d4d;
+}
+.dw-btn {
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.about-bg-style{
+background-color: #679bcc;
+}.about-p1{
+  display:flex;
+  justify-content: space-between;
+}
+.about-p2{
+  display:flex;
+  justify-content: space-between;
+}
+.desc-heading{
+  width: 40%;
+  padding: 1rem;
+  font-size:3rem;
+  color: #331016;
+  font-weight: bolder;
+}
+.desc{
+  padding: 1rem;
+  font-size: 1.5em;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.home-link{
+  color:#fff;
+}
+.home-link:hover{
+  color:#81ecec;
+}
+.privacy-policy-container{
+display:grid;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+padding:1rem;
+background-color: #4c31f5;
 }
 /***************** Responsive design**************/
 /* BELOW 544px (Phones) */
@@ -280,6 +313,17 @@ a {
   .nav-menu {
     width: 70%;
   }
+  .li-items {
+    display: inline;
+    padding: 2rem;
+    text-decoration: none;
+  }
+  .li-items {
+    display: inline;
+    padding: 2rem;
+    text-decoration: none;
+  }
+ 
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
@@ -295,7 +339,8 @@ a {
     font-family: "Inter";
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 12px;
+    --bs-link-hover-color: aqua;
   }
   .logo {
     width: 10rem;
@@ -496,6 +541,11 @@ a {
   .nav-menu {
     width: 70%;
   }
+  .li-items {
+    display: inline;
+    padding: 1rem;
+    text-decoration: none;
+  }
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
@@ -507,7 +557,8 @@ a {
     font-family: "Inter";
     color: #fff;
     text-decoration: none;
-    font-size: 10px;
+    font-size: 15px;
+    --bs-link-hover-color: aqua;
   }
   .logo {
     width: 10rem;
@@ -516,7 +567,7 @@ a {
   .header {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
     height: 9.6rem;
     padding: 0 1.5rem;
     position: relative;
@@ -693,12 +744,17 @@ a {
   .brandname {
     display: inline;
     width: 44%;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .nav-menu {
     width: 70%;
     margin-right: 0px;
     margin-left: 5%;
+  }
+  .li-items {
+    display: inline;
+    padding: 1rem;
+    text-decoration: none;
   }
   .link-style {
     margin-right: 0px;
@@ -710,7 +766,8 @@ a {
     font-family: "Inter";
     color: #fff;
     text-decoration: none;
-    font-size: 15px;
+    font-size: 18px;
+    --bs-link-hover-color: aqua;
   }
 
   .logo {
@@ -894,6 +951,11 @@ a {
   .nav-menu {
     width: 70%;
   }
+  .li-items {
+    display: inline;
+    padding: 1rem;
+    text-decoration: none;
+  }
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
@@ -904,7 +966,8 @@ a {
     font-family: "Inter";
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 20px;
+    --bs-link-hover-color: aqua;
   }
 
   .logo {
@@ -1082,23 +1145,28 @@ a {
   .brandname {
     display: inline;
     width: 44%;
-    margin-top: 2rem;
+    margin-top: 1rem;
   }
   .nav-menu {
     width: 70%;
+  }
+  .li-items {
+    display: inline;
+    padding: 1rem;
+    text-decoration: none;
   }
 
   .link-style {
     margin-right: 0px;
     font-size: 1.2rem;
-    margin-left: 2rem;
     float: right;
   }
   .nav-headers {
     font-family: "Inter";
     color: #fff;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 22px;
+    --bs-link-hover-color: aqua;
   }
 
   .logo {

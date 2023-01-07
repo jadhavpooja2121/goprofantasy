@@ -2,7 +2,7 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
-import { scrollingImages } from "../Constants";
+import { scrollingImages } from "../data/Constants";
 import ScrollingImage from "./ScrollingImage";
 import { CarouselItem } from "react-bootstrap";
 

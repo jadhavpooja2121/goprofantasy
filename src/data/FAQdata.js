@@ -8,7 +8,8 @@ const FAQdata = [
   {
     id: 1,
     question: "Why do I signup on GoProFantasy",
-    answer: "Easy breezy! Once you are GoProFantasy, choose your sport and register by filling out a short form, or just log in with your Facebook or Google account to play and enjoy on our fantasy cricket platform.",
+    answer:
+      "Easy breezy! Once you are GoProFantasy, choose your sport and register by filling out a short form, or just log in with your Facebook or Google account to play and enjoy on our fantasy cricket platform.",
   },
   {
     id: 1,
@@ -18,9 +19,9 @@ const FAQdata = [
   {
     id: 1,
     question: "How can I change my password?",
-    answer: "Log into your account. Then go to profile section -> account -> Change password",
+    answer:
+      "Log into your account. Then go to profile section -> account -> Change password",
   },
 ];
 
 export default FAQdata;
-

@@ -1,7 +1,7 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Button from "react-bootstrap/esm/Button";
-import apkLink from "../Constants";
+import apkLink from "../data/Constants";
 import FAQComponent from "./FAQs";
 import { Link } from "react-router-dom";
 
@@ -17,34 +17,36 @@ function Navbar() {
   return (
     <header className="header navigation">
       <div className="brandname">
-          <img
-            src="/images/app_logo.png"
-            alt="GoProFantasyLogo"
-            className="logo"
-          />
-          <h1 style={{display:"inline-block"}}>GoProFantasy</h1>
-          </div>
+        <img
+          src="/images/app_logo.png"
+          alt="GoProFantasyLogo"
+          className="logo"
+        />
+        <Link to="/" className="home-link">
+          <h1 style={{ display: "inline-block" }}>GoProFantasy</h1>
+        </Link>
+      </div>
       <nav className="nav-menu">
         <ul className="link-style">
           <li className="li-items">
-            <Link className="nav-headers" to="/howtoplay">
+            <a className="nav-headers" href="#howtoplay">
               How to play
-            </Link>
+            </a>
           </li>
           <li className="li-items">
-            <Link className="nav-headers" to="/faqs">
-              FAQs
-            </Link>
+            <a className="nav-headers" href="#faqs">
+              FAQ's
+            </a>
           </li>
           <li className="li-items">
             <Link className="nav-headers" to="/aboutus">
               About us
             </Link>
-            </li>
-            <li className="li-items download-button-style">
+          </li>
+          <li className="li-items download-button-style">
             <a href={apkLink}>
               <Button className="">
-                <h6 className="">Download</h6>
+                <h4 className="dw-btn-font">Download</h4>
               </Button>
             </a>
           </li>

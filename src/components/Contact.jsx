@@ -28,26 +28,34 @@ function Contact() {
 
             <ul className="info-items">
               <li className="info-links">
-                <Link to="/aboutus" className="page-links">About us</Link>
+                <Link to="/aboutus" className="page-links">
+                  About us
+                </Link>
               </li>
               <li className="info-links">
-                <Link to="/faqs" className="page-links">FAQs</Link>
+                <Link to="/faqs" className="page-links">
+                  FAQs
+                </Link>
               </li>
               <li className="info-links">
-                <Link to="/privacypolicy" className="page-links">Privacy policy</Link>
+                <Link to="/privacypolicy" className="page-links">
+                  Privacy policy
+                </Link>
               </li>
               <li className="info-links">
-                <Link to="/careers" className="page-links">Careers</Link>
+                <Link to="/terms" className="page-links">
+                  Terms and Conditions
+                </Link>
               </li>
             </ul>
-          </div> 
+          </div>
 
           <div class="footer-item">
             <h5 class="text-uppercase">Follow us on Social media</h5>
 
             <ul class="list-unstyled">
-              <li className="social-media-links" >
-                 <img
+              <li className="social-media-links">
+                <img
                   src="images/Facebook_logo.png"
                   alt="facebook-logo"
                   className="social-media-logos"
@@ -57,23 +65,21 @@ function Contact() {
                 <img
                   src="images/linkedin.png"
                   alt="linkedin-logo"
-                  className="social-media-logos"                />
+                  className="social-media-logos"
+                />
               </li>
               <li className="social-media-links">
                 <img
                   src="images/twitter.png"
                   alt="twitter-logo"
-                  className="social-media-logos"                />
+                  className="social-media-logos"
+                />
               </li>
-              
             </ul>
             <FooterNote />
           </div>
         </div>
-
       </footer>
-    
-
     </div>
   );
 }

@@ -14,12 +14,12 @@ const Home = () => {
     <div className="container-fluid" style={{ padding: "0" }}>
       <Navbar />
       <QRImage />
-      <AppFeatures/>
-      <HowToPlay/>
-      <UserStoryFeature/>
+      <AppFeatures />
+      <HowToPlay />
+      <UserStoryFeature />
       <FAQComponent />
-      <AppDownload/>
-      <Contact/>
+      <AppDownload />
+      <Contact />
       <Disclaimer />
     </div>
   );
